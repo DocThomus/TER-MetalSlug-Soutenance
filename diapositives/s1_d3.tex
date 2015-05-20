@@ -85,6 +85,14 @@
 		\includegraphics[width=4cm]{figures/logo_sfml.png}
 	\end{textblock*}
 	
+	\begin{tikzpicture}[overlay,remember picture]
+		\begin{scope}[shift={(current page.south west)}]
+			\draw (7,1.5) -- (10.5,4.5);
+			\draw (7,1.5) -- (3.5,4.5);
+			\draw (10.5,4.5) -- (3.5,4.5);
+		\end{scope} 
+	\end{tikzpicture}
+	
 	\only<2->
 	{
 		\begin{textblock*}{2.5cm}(2.5cm,4cm)
@@ -101,7 +109,7 @@
 	
 	\only<4->
 	{
-		\begin{textblock*}{2.5cm}(6cm,7cm)
+		\begin{textblock*}{2.5cm}(5.75cm,7cm)
 			\includegraphics[width=2.5cm]{figures/sfml_modules.png}
 		\end{textblock*}
 	}
