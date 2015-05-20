@@ -14,8 +14,11 @@ add :
 
 clean :
 	@echo "Nettoyage du repertoire"
-	@rm *.toc
 	@rm *.aux
-	@rm *.lof
 	@rm *.log
+	@rm *.nav
 	@rm *.out
+	@rm *.pdf
+	@rm *.snm
+	@rm *.toc
+	@rm *~
