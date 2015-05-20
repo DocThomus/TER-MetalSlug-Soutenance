@@ -1,0 +1,7 @@
+Convention : 
+	
+	- un fichier .tex par diapo
+	
+	- "s1_d3" = nom de la diapo 3 de la section 1
+	
+	-  modifier le fichier de la section concernée afin d'ajouter/enlever une diapo

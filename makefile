@@ -1,6 +1,6 @@
 all : 
-	pdflatex soutenance.tex 
-	pdflatex soutenance.tex
+	pdflatex s0_soutenance.tex 
+	pdflatex s0_soutenance.tex
 
 open :
 	gedit *.tex &
@@ -21,4 +21,8 @@ clean :
 	@rm *.pdf
 	@rm *.snm
 	@rm *.toc
+	
+cleantilde :
+	@rm */*.*~
+	@rm *.*~
 	@rm *~
