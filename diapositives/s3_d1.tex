@@ -1,22 +1,59 @@
 \begin{frame}
 
 	\frametitle{Analyse et Conception}
-	\framesubtitle{Analyse de l'image}
+	\framesubtitle{SFML}
 
-	\begin{textblock*}{4.5cm}(2.5cm,2cm)
-		\includegraphics[width=4.5cm,height=3cm]{figures/screen_jeuorigine_1.jpg}
+	\begin{textblock*}{1cm}(6.5cm,3cm)
+		System
 	\end{textblock*}
 
-	\begin{textblock*}{4.5cm}(7.5cm,2cm)
-		\includegraphics[width=4.5cm,height=3cm]{figures/screen_jeuorigine_2.jpg}
-	\end{textblock*}
+	\only<2->
+	{
+		\begin{textblock*}{1cm}(2.5cm,5cm)
+			Window
+		\end{textblock*}
+		\begin{tikzpicture}[overlay,remember picture]
+			\begin{scope}[shift={(current page.south west)}]
+				\draw (7,6) -- (4,4.5);
+			\end{scope} 
+		\end{tikzpicture}
+	}
 
-	\begin{textblock*}{4.5cm}(2.5cm,5.5cm)
-		\includegraphics[width=4.5cm,height=3cm]{figures/screen_jeuorigine_3.jpg}
-	\end{textblock*}
+	\only<3->
+	{
+		\begin{textblock*}{1cm}(5cm,7cm)
+			Graphic
+		\end{textblock*}
+		\begin{tikzpicture}[overlay,remember picture]
+			\begin{scope}[shift={(current page.south west)}]
+				\draw (7,6) -- (5.5,3);
+				\draw (4,4.5) -- (5.5,3);
+			\end{scope} 
+		\end{tikzpicture}
+	}
 
-	\begin{textblock*}{4.5cm}(7.5cm,5.5cm)
-		\includegraphics[width=4.5cm,height=3cm]{figures/screen_jeuorigine_4.png}
-	\end{textblock*}
+	\only<4->
+	{
+		\begin{textblock*}{1cm}(8cm,7cm)
+			Audio
+		\end{textblock*}
+		\begin{tikzpicture}[overlay,remember picture]
+			\begin{scope}[shift={(current page.south west)}]
+				\draw (7,6) -- (8.5,3);
+			\end{scope} 
+		\end{tikzpicture}
+	}
+
+	\only<5->
+	{
+		\begin{textblock*}{1cm}(10cm,5cm)
+			Network
+		\end{textblock*}
+		\begin{tikzpicture}[overlay,remember picture]
+			\begin{scope}[shift={(current page.south west)}]
+				\draw (7,6) -- (9.5,4.5);
+			\end{scope} 
+		\end{tikzpicture}
+	}
 
 \end{frame}
